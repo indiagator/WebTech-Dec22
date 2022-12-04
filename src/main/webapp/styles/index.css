@@ -1,0 +1,34 @@
+@layer baseLayer, secondLayer;
+
+@layer secondLayer
+
+@layer baseLayer {
+
+p   {
+        color: red;
+    }
+
+    h1,h2,h3 {
+        color: green;
+    }
+
+.special{
+    font-family: Candara;
+    color: blueviolet;
+    font-size: 1.5em;
+    border: black
+}
+
+#tables{
+    color: crimson;
+}
+
+form[novalidate]{
+    color: crimson;
+}
+
+pre:hover{
+    color: darkslateblue;
+    display: none;
+}
+}

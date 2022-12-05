@@ -1,6 +1,8 @@
 
 
 var testHttpRequest;
+var testHttpRequest1;
+
 
 function handleResponse()
 {
@@ -108,6 +110,11 @@ function onClickButton() // invisible Function object wrapping this function
    // {
    //     document.getElementById("heading").style.display = 'block';
    // }
+
+}
+function redirectPage()
+{
+    window.location.replace("http://localhost:8080/html-1.0-SNAPSHOT/testbtp.html");
 
 }
 

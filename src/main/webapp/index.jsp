@@ -26,7 +26,7 @@
     </div>
 
     <button onclick="onClickButton()">CLICK ME</button>
-    <button onclick="sendRequest()">SEND AJAX REQ</button>
+    <button onclick="redirectPage()">GOTO BTSTRP</button>
 
     <div id="headings">
         <section style="text-align: center"> <h3 id="heading">Welcome to Edureka TCS Training</h3></section>
